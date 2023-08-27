@@ -135,6 +135,13 @@
     <ClCompile Include="10字符型.cpp" />
     <ClCompile Include="11转义字符.cpp" />
     <ClCompile Include="12字符串型.cpp" />
+    <ClCompile Include="13布尔类型.cpp" />
+    <ClCompile Include="14数据输入.cpp" />
+    <ClCompile Include="15算法运算符.cpp" />
+    <ClCompile Include="18赋值运算符.cpp" />
+    <ClCompile Include="19比较运算符.cpp" />
+    <ClCompile Include="20逻辑运算符.cpp" />
+    <ClCompile Include="23选择结构.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

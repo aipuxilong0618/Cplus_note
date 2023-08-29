@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-int main() {
+int main23() {
 
-	//选择单行格式if语句：if
+//选择单行格式if语句：if
 	//输入一个分数，如果分数大于600分，视为考上大学，并在屏幕上打印
 
 	int score1 = 0;
@@ -20,7 +20,7 @@ int main() {
 	}
 
 
-	//执行多行格式if语句：if-else
+//执行多行格式if语句：if-else
 	int score2 = 0;
 
 	cout << "请输入考试分数：" << endl;
@@ -36,7 +36,7 @@ int main() {
 		cout << "我未考上一本大学" << endl;
 	}
 
-	//执行多条件的if语句：if-else if-else if-else
+//执行多条件的if语句：if-else if-else if-else
 	int score3 = 0;
 
 	cout << "请输入考试分数：" << endl;
@@ -59,6 +59,46 @@ int main() {
 	{
 		cout << "我未考上本科" << endl;
 	}
+
+
+
+//嵌套if语句：在if语句中，可以嵌套使用if语句，达到更精确的条件判断
+	int score4 = 0;
+
+	cout << "请输入考试分数：" << endl;
+
+	cin >> score4;
+
+	if (score4 > 600)
+	{
+		cout << "我考上了一本大学" << endl;//嵌套if语句
+		if (score4 > 700)
+		{
+			cout << "我考上了北大" << endl;
+		}
+		else if (score4 > 650)
+		{
+			cout << "我考上了清华" << endl;
+		}
+		else
+		{
+			cout << "我考上了人大" << endl;
+		}
+
+	}
+	else if (score4 > 500)
+	{
+		cout << "我考上了二本大学" << endl;
+	}
+	else if (score4 > 400)
+	{
+		cout << "我考上了三本大学" << endl;
+	}
+	else
+	{
+		cout << "我未考上本科" << endl;
+	}
+
 
 	return 0;
 }

@@ -57,7 +57,43 @@
     <ClCompile Include="20逻辑运算符.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="23选择结构.cpp">
+    <ClCompile Include="23选择结构if语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28选择结构三目运算符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29选择结构switch语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30循环结构while语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31猜数字循环示例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32循环结构dowhile语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34循环结构for语句.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36循环结构嵌套循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38跳转语句break-continue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37乘法口诀表示例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40跳转语句goto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41数组一维数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44元素逆置示例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -154,6 +154,8 @@
     <ClCompile Include="40跳转语句goto.cpp" />
     <ClCompile Include="41数组一维数组.cpp" />
     <ClCompile Include="44元素逆置示例.cpp" />
+    <ClCompile Include="45数组一维数组冒泡排序.cpp" />
+    <ClCompile Include="46二维数组.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

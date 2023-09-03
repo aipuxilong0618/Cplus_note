@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main() {
+int main44() {
 	int arr[5] = { 1,3,2,5,4 };
 	cout << "开始的数组是 " << endl;
 	for (int i = 0; i < 5; i++) {

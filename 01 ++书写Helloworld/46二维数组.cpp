@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int main() {
+int main46() {
 	/*
 	二维数组定义的四种方式：
 

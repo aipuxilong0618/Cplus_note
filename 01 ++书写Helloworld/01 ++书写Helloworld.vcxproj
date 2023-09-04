@@ -156,6 +156,13 @@
     <ClCompile Include="44元素逆置示例.cpp" />
     <ClCompile Include="45数组一维数组冒泡排序.cpp" />
     <ClCompile Include="46二维数组.cpp" />
+    <ClCompile Include="48考试成绩统计.cpp" />
+    <ClCompile Include="49函数的定义与调用.cpp" />
+    <ClCompile Include="52函数样式与声明.cpp" />
+    <ClCompile Include="54函数分文件编写.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="swap54.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

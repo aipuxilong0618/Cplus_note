@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1f5cc59f-1a0a-4d9f-8765-5e0fd679b23f}</ProjectGuid>
-    <RootNamespace>My01书写Helloworld</RootNamespace>
+    <ProjectGuid>{6323d3fd-18e5-4922-8486-531308165b42}</ProjectGuid>
+    <RootNamespace>第3阶段C核心编程资料</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>第1阶段C++ 匠心之作 从0到1入门资料</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,52 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01C++helloworld.cpp" />
-    <ClCompile Include="03 变量.cpp" />
-    <ClCompile Include="04 常量.cpp" />
-    <ClCompile Include="08sizeof关键字.cpp" />
-    <ClCompile Include="09浮点型.cpp" />
-    <ClCompile Include="10字符型.cpp" />
-    <ClCompile Include="11转义字符.cpp" />
-    <ClCompile Include="12字符串型.cpp" />
-    <ClCompile Include="13布尔类型.cpp" />
-    <ClCompile Include="14数据输入.cpp" />
-    <ClCompile Include="15算法运算符.cpp" />
-    <ClCompile Include="18赋值运算符.cpp" />
-    <ClCompile Include="19比较运算符.cpp" />
-    <ClCompile Include="20逻辑运算符.cpp" />
-    <ClCompile Include="23选择结构if语句.cpp" />
-    <ClCompile Include="28选择结构三目运算符.cpp" />
-    <ClCompile Include="29选择结构switch语句.cpp" />
-    <ClCompile Include="30循环结构while语句.cpp" />
-    <ClCompile Include="31猜数字循环示例.cpp" />
-    <ClCompile Include="32循环结构dowhile语句.cpp" />
-    <ClCompile Include="34循环结构for语句.cpp" />
-    <ClCompile Include="36循环结构嵌套循环.cpp" />
-    <ClCompile Include="37乘法口诀表示例.cpp" />
-    <ClCompile Include="38跳转语句break-continue.cpp" />
-    <ClCompile Include="40跳转语句goto.cpp" />
-    <ClCompile Include="41数组一维数组.cpp" />
-    <ClCompile Include="44元素逆置示例.cpp" />
-    <ClCompile Include="45数组一维数组冒泡排序.cpp" />
-    <ClCompile Include="46二维数组.cpp" />
-    <ClCompile Include="48考试成绩统计.cpp" />
-    <ClCompile Include="49函数的定义与调用.cpp" />
-    <ClCompile Include="52函数样式与声明.cpp" />
-    <ClCompile Include="54函数分文件编写.cpp" />
-    <ClCompile Include="55指针的使用与占用空间.cpp" />
-    <ClCompile Include="57指针空指针野指针const修饰指针.cpp" />
-    <ClCompile Include="60指针与数组函数.cpp" />
-    <ClCompile Include="62指针数组函数案例.cpp" />
-    <ClCompile Include="63结构体定义与使用.cpp" />
-    <ClCompile Include="64结构体数组与指针.cpp" />
-    <ClCompile Include="66结构体嵌套结构体.cpp" />
-    <ClCompile Include="67结构体做函数参数.cpp" />
-    <ClCompile Include="68结构体const的使用.cpp" />
-    <ClCompile Include="69结构体示例.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="swap54.h" />
+    <ClCompile Include="88引用的基本使用与本质.cpp" />
+    <ClCompile Include="90引用做函数参数.cpp" />
+    <ClCompile Include="91引用做函数返回值.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
